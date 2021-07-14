@@ -3,8 +3,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <!--<title> Glassmorphism Website | CodingLab </title>-->
-    <link rel="stylesheet" href="style.css" />
+    <title>Resume Tester</title>
+    <link rel="stylesheet" href="./Main.css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -13,14 +13,45 @@
   </head>
   <body>
     <header>
+      <!-- <nav class="navbar navbar-expand-lg position-fixed w-100">
+        <div class="container ">
+          <a class="navbar-brand" href="">
+            <img loading='lazy' src="./assests/logo.png" alt="" class="custom-logo" loading='lazy'>
+          </a>
+          <button class="btn" onclick="openNav()">
+            <i class="material-icons">
+              menu
+            </i>
+          </button>
+        </div>
+      </nav>
+    </header>
+  
+    <!-- sidenav starts here -->
+    <!-- <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#SERVICES" onclick="closeNav()">Home</a>
+      <a href="#ABOUTUS" onclick="closeNav()">About Us</a>
+      <a href="#timeline" onclick="closeNav()">Our Timeline</a>
+      <a href="#ourmissions" onclick="closeNav()">Our Missions</a>
+      <a href="#management-team" onclick="closeNav()">Our Team</a>
+      <!-- <a href="#">Clients</a> -->
+  
+      <!-- <a href="#CONTACTUS" onclick="closeNav()">Contact Us</a>
+    </div> -->
+
+    
+      <!-- <div style="background-image: url('./assests/mainhome.jpg');"></div> -->
       <nav class="navbar">
         <div class="decs">
-          <img src="logo.png" />
+          <img src="./assests/logo.png"/>
           <h1>RESU TESTER</h1>
         </div>
         <div class="buttons">
-          <input type="button" value="Home" />
-          <input type="button" value="About Us" />
+          <!-- <input type="button" value="Home" /> -->
+          <!-- <input type="button" value="About Us" /> -->
+          <a href="index.html"><input type="button" value="Home"/></a>
+          <a href="aboutus.html"><input type="button" value="About Project" /></a>
           <a href="teams.html"><input type="button" value="Team" /></a>
           <!-- <a href="teams.html"><button>Team</button></a>  -->
         </div>
@@ -28,12 +59,16 @@
       <div class="text-content">
         <h1>Welcome to RESU TESTER!!</h1>
         <h4>Want to Know your eligibility for applying for a JOB?</h4>
-        <h3>Upload your RESUME here</h3>
+        <h3>Come in our enviornment and check your Resume</h3>
       </div>
-      <form action="My File" class="form">
+
+  <!--    <form action="My File" class="form">
         <label for="myfile">Select a file:</label>
         <input type="file" id="myfile" name="myfile" /><br /><br />
-        <input type="submit" />
+        <input type="submit" /> -->
+      <div style="align-items: center; justify-content: center; display: flex; padding-top: 5%;">
+        <button onclick="document.location='file:///C:/Users/ss/Desktop/Celebal%20Project/Teams/ResuTester.html'" style="height: 10%; width: 20%; border-radius: 10px; background-color: hotpink; cursor: pointer;;">COME</button>
+      </div>
       </form>
     </header>
   </body>
